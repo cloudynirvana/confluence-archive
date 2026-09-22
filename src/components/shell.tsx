@@ -56,6 +56,13 @@ export function Shell({ children }: { children: ReactNode }) {
               GitHub hub
             </a>
             {" · "}
+            <a
+              href="https://github.com/cloudynirvana/confluence-archive"
+              className="text-copper no-underline hover:text-fg"
+            >
+              Site source
+            </a>
+            {" · "}
             Kelechi Emeka Ogbonna
           </p>
         </div>
