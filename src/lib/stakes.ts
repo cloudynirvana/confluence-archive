@@ -1,0 +1,43 @@
+/** One medical-modelling stake per deposit. Research objects, not care claims. */
+export const STAKES: Record<string, string> = {
+  T00: "An in-vitro metabolic assay exists. Later models must not treat its tables as treatment coefficients.",
+  T01: "Oncology knowledge-graph records are promoted into ODE rates as if they were measurements.",
+  T02: "Guideline text is written as kinetic law.",
+  T03: "A chart, a knowledge page, and a board are collapsed into one identified parameter.",
+  T04: "Undetectable residual disease is modelled by smuggling extra continuous states into Θ.",
+  T05: "A one-state burden cannot carry organ-to-organ seeding, transit, or carrying capacities.",
+  T06: "Lumped adaptive-therapy policies and sparse architectures are treated as the same closed loop.",
+  T07: "Phytochemical screen scores are written as efficacy inside a tipping-point ODE.",
+  T08: "An undergraduate assay is reused as a therapy coefficient instead of a named observation channel.",
+  T09: "A noisy multi-channel snapshot is treated as a unique recovery of five metabolic rates.",
+  T10: "Lactate, checkpoint proxies, and host constraints are rewritten as drug parameters.",
+  T11: "Fibrotic stroma that can exclude drug is averaged into a one-state sink.",
+  T12: "Sloppy combinations after reduction are relabelled as biological mechanisms.",
+  T13: "Near-linear local damage is assumed to stay linear at the organism hazard scale.",
+  T14: "Infection windows are absorbed into PK/PD coefficients.",
+  T15: "AgNP, exosome, and Raman layers are merged into one θ.",
+  T16: "Surrogate binding scores are treated as docking, then as rates.",
+  T17: "Chain-recurrent labels are used as if they were certified isolating blocks.",
+  T18: "Aging-like and cancer-like failure are named without a computable coupling object.",
+  T19: "Soft priors and guideline text leak into kinetic writes on a frozen tip ODE.",
+  T20: "A lagged, floored liquid-biopsy-style scalar is treated as full state for occult modes.",
+  T21: "Desmoplastic force on metastatic edges is ignored while lumped burden is fitted.",
+  T22: "Legal observation channels are concatenated into θ.",
+  T23: "Host infection context is either ignored or written as a rate.",
+  T24: "Reduction is assumed to preserve every identifiable multi-channel direction.",
+  T25: "Two aging objects are assumed to coincide because both are named aging.",
+  T26: "Hybrid mode labels and Lyapunov labels are treated as the same partition.",
+  T27: "A full-state controller is deployed on a lagged scalar; the informative coordinate is cancelled.",
+  T28: "A legal input is numerically a rescaling of a reduced product, yet admitted as a new mechanism.",
+  T29: "Host context is applied after an illegal channel merge.",
+  T30: "Dormancy and stromal force are studied apart, then the graph is fitted as if both were absent.",
+  T31: "Guideline sentences become rates because the JSON parsed.",
+  T32: "Coherence is computed as if the stroma were empty space.",
+  T33: "Uncertified Lyapunov labels are read off surviving Fisher directions.",
+  T34: "An assay score is admitted as both observation channel and kinetic write.",
+  T35: "Parameter-only 95% bands are reported as prediction. On this toy they cover 0.755 of a held-out path.",
+};
+
+export function stakeOf(id: string) {
+  return STAKES[id] ?? "";
+}
