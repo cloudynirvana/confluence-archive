@@ -77,6 +77,18 @@ function Home() {
         ))}
       </section>
 
+      <section className="rounded-xl border border-copper/40 bg-surface p-5 sm:p-6">
+        <p className="font-mono text-xs uppercase tracking-[0.18em] text-copper">Review · 22 Sep 2026</p>
+        <h2 className="mt-2 font-display text-2xl text-fg">No new problem.</h2>
+        <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">
+          A second pass does not open T36, T37, or T41. The only next object is
+          the T35 addendum: profile omitted <span className="font-mono text-fg">k_par</span> while
+          the envelope-B residual is free. If that interval contains 0, coverage
+          1.000 was a hack. If it excludes 0, discrepancy and the omitted path
+          are separable. Same repository. No new thesis number.
+        </p>
+      </section>
+
       <section>
         <h2 className="font-display text-2xl text-fg">Every paper addresses a real problem</h2>
         <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted">

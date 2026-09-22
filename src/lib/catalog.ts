@@ -21,6 +21,7 @@ export type Thesis = {
 export const CLUSTERS: {
   id: ClusterId;
   name: string;
+  short: string;
   medical: string;
   source: string;
   cite: string;
@@ -28,6 +29,7 @@ export const CLUSTERS: {
   {
     id: "stroma",
     name: "Stromal mechanics and delivery failure",
+    short: "Stroma",
     medical:
       "Solid tumours live in a mechanically active stroma. Matrix stiffness and fibrotic force are not decoration: they drive progression and can physically block drug delivery. A lumped burden ODE cannot see that barrier.",
     source:
@@ -37,6 +39,7 @@ export const CLUSTERS: {
   {
     id: "occult",
     name: "Occult residual disease",
+    short: "Occult",
     medical:
       "Disease that is below detection is still a dynamical object. Naming it as a hidden continuous parameter licenses smuggling extra states into Θ. Hybrid modes with named switching observables are the honest alternative.",
     source:
@@ -46,6 +49,7 @@ export const CLUSTERS: {
   {
     id: "identifiability",
     name: "Unidentifiable models used as unique",
+    short: "Identifiability",
     medical:
       "Cancer kinetic models are fitted and then treated as if parameters were unique. Structural and practical identifiability routinely fail. Predictions from unidentified Θ are not evidence.",
     source:
@@ -55,6 +59,7 @@ export const CLUSTERS: {
   {
     id: "gates",
     name: "Knowledge that must not become a coefficient",
+    short: "Gates",
     medical:
       "Oncology knowledge graphs, guidelines, and screen scores exist. Writing them into ODE rates is a category error. Medicine needs a gate: evidence can change hypothesis rank without entering Θ.",
     source:
@@ -64,6 +69,7 @@ export const CLUSTERS: {
   {
     id: "observer",
     name: "Sparse, delayed, censored observers",
+    short: "Observer",
     medical:
       "Liquid-biopsy-style scalars are sparse, lagged, and floored. Controllers that assume full state fail. Extra samples of a cancelled coordinate do not restore identifiability.",
     source:
@@ -73,6 +79,7 @@ export const CLUSTERS: {
   {
     id: "host",
     name: "Host context that is not PK/PD",
+    short: "Host",
     medical:
       "Infection windows, lactate, checkpoint proxies, and metabolic assays change which hypotheses are even legal. They are not licence to rewrite kinetic Θ as treatment.",
     source:
@@ -82,6 +89,7 @@ export const CLUSTERS: {
   {
     id: "aging",
     name: "Coupled-subsystem failure and Gompertz hazard",
+    short: "Aging",
     medical:
       "Aging-like hazard can emerge from load × gain on damaged subsystems. That is a computational biogerontology object. It is not rejuvenation.",
     source:

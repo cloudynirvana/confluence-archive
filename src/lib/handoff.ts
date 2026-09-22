@@ -38,7 +38,7 @@ Every published thesis is an addition to knowledge as a **citable computational 
 7. Coupled-subsystem failure / Gompertz — T13, T18, T25, T32
 
 ## Next scientific work (quality over count)
-Do not open T36/T37/T41 as “rank survives.” Order:
+Review 22 Sep 2026 evening: no new problem. Do not open T36/T37/T41.
 
 0. Done — hub indexes T35 published
 1. T35 addendum (same repo): profile omitted k_par while envelope-B residual is co-estimated (Kennedy–O’Hagan confounding). Kill if the interval contains 0 once residual is free.

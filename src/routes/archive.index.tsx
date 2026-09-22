@@ -52,7 +52,7 @@ function ArchivePage() {
           </Chip>
           {CLUSTERS.map((c) => (
             <Chip key={c.id} active={cluster === c.id} onClick={() => setCluster(c.id)}>
-              {c.name}
+              {c.short}
             </Chip>
           ))}
         </div>
